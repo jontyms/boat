@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-      sleep(1000);
+      delay(1000);
       // Arm the ESC
       ESC.write(1); // Between 0 and 180
       //write a while loop
